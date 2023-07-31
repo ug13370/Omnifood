@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeroSectionComponent } from './components/hero-section/hero-section.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HowSectionComponent } from './components/how-section/how-section.component';
+import { FeaturedSectionComponent } from './components/featured-section/featured-section.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroSectionComponent,
     HeaderComponent,
-    HowSectionComponent
+    HowSectionComponent,
+    FeaturedSectionComponent
   ],
   imports: [
     BrowserModule,
