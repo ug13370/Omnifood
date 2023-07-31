@@ -10,6 +10,7 @@ import { FeaturedSectionComponent } from './components/featured-section/featured
 import { MealsSectionComponent } from './components/meals-section/meals-section.component';
 import { IonicModule } from '@ionic/angular';
 import { TestimonialsSectionComponent } from './components/testimonials-section/testimonials-section.component';
+import { PricingSectionComponent } from './components/pricing-section/pricing-section.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TestimonialsSectionComponent } from './components/testimonials-section/
     HowSectionComponent,
     FeaturedSectionComponent,
     MealsSectionComponent,
-    TestimonialsSectionComponent
+    TestimonialsSectionComponent,
+    PricingSectionComponent
   ],
   imports: [
     BrowserModule,
