@@ -7,6 +7,8 @@ import { HeroSectionComponent } from './components/hero-section/hero-section.com
 import { HeaderComponent } from './components/header/header.component';
 import { HowSectionComponent } from './components/how-section/how-section.component';
 import { FeaturedSectionComponent } from './components/featured-section/featured-section.component';
+import { MealsSectionComponent } from './components/meals-section/meals-section.component';
+import { IonicModule } from '@ionic/angular';
 
 @NgModule({
   declarations: [
@@ -14,11 +16,13 @@ import { FeaturedSectionComponent } from './components/featured-section/featured
     HeroSectionComponent,
     HeaderComponent,
     HowSectionComponent,
-    FeaturedSectionComponent
+    FeaturedSectionComponent,
+    MealsSectionComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    IonicModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
