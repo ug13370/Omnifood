@@ -9,6 +9,7 @@ import { HowSectionComponent } from './components/how-section/how-section.compon
 import { FeaturedSectionComponent } from './components/featured-section/featured-section.component';
 import { MealsSectionComponent } from './components/meals-section/meals-section.component';
 import { IonicModule } from '@ionic/angular';
+import { TestimonialsSectionComponent } from './components/testimonials-section/testimonials-section.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { IonicModule } from '@ionic/angular';
     HeaderComponent,
     HowSectionComponent,
     FeaturedSectionComponent,
-    MealsSectionComponent
+    MealsSectionComponent,
+    TestimonialsSectionComponent
   ],
   imports: [
     BrowserModule,
