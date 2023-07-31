@@ -11,6 +11,7 @@ import { MealsSectionComponent } from './components/meals-section/meals-section.
 import { IonicModule } from '@ionic/angular';
 import { TestimonialsSectionComponent } from './components/testimonials-section/testimonials-section.component';
 import { PricingSectionComponent } from './components/pricing-section/pricing-section.component';
+import { FooterSectionComponent } from './components/footer-section/footer-section.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { PricingSectionComponent } from './components/pricing-section/pricing-se
     FeaturedSectionComponent,
     MealsSectionComponent,
     TestimonialsSectionComponent,
-    PricingSectionComponent
+    PricingSectionComponent,
+    FooterSectionComponent
   ],
   imports: [
     BrowserModule,
