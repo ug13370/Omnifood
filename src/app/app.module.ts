@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
-import { IonicModule } from '@ionic/angular';
-import { AppRoutingModule } from './app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
+import { IonicModule } from '@ionic/angular';
 
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
 import { HeaderComponent } from './components/header/header.component';
 import { HowSectionComponent } from './components/how-section/how-section.component';
 import { HeroSectionComponent } from './components/hero-section/hero-section.component';
@@ -18,6 +19,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
   declarations: [
     AppComponent,
     HeaderComponent,
+    HomePageComponent,
     HowSectionComponent,
     HeroSectionComponent,
     FooterSectionComponent,
@@ -25,7 +27,6 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
     PricingSectionComponent,
     FeaturedSectionComponent,
     TestimonialsSectionComponent,
-    HomePageComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, IonicModule.forRoot()],
   providers: [],
